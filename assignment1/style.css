@@ -1,0 +1,19 @@
+.anime{
+    animation: changeImage 4s infinite;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes changeImage {
+
+    0%,100% {
+        background-image: url("3.jpeg");
+    }
+    33% {
+        background-image: url("4.jpeg");
+    }
+    66% {
+        background-image: url("7.jpeg");
+    }
+}
