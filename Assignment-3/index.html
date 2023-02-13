@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assignment-3</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+   
+</head>
+<body>
+    <div class="container">
+        <div class="container1">
+            <button class="btn">Append</button> 
+            <ul>
+                <li class="1">Janak</li>  
+                <li class="2">manish</li>  
+                <li class="3">Tiny</li>
+                <li class="4">verma</li>
+                <li class="5">vivek</li>
+                <li class="6">aneja</li>
+                <li class="7">ansh</li>
+                <li class="8">Mily</li>   
+            </ul>
+           
+        </div>
+        <div class="container2">
+            <button class="btn2">Prepend</button>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function(){
+                   
+                    $(".btn").click(function(){
+                    $(".1").appendTo(".container2");
+                    $(".btn").click(function(){
+                    $(".2").appendTo(".container2"); 
+                    $(".btn").click(function(){
+                    $(".3").appendTo(".container2"); 
+                    $(".btn").click(function(){
+                    $(".4").appendTo(".container2");
+                    $(".btn").click(function(){
+                    $(".5").appendTo(".container2");
+                    $(".btn").click(function(){
+                    $(".6").appendTo(".container2");
+                    $(".btn").click(function(){
+                    $(".7").appendTo(".container2");
+                    $(".btn").click(function(){
+                    $(".8").appendTo(".container2");       
+                    }); }); }); }); }); });  });  }); 
+
+                  
+                    $(".btn2").click(function(){
+                    $(".1").prependTo(".container1");
+                    $(".btn2").click(function(){
+                    $(".2").prependTo(".container1"); 
+                    $(".btn2").click(function(){
+                    $(".3").prependTo(".container1"); 
+                    $(".btn2").click(function(){
+                    $(".4").prependTo(".container1");
+                    $(".btn2").click(function(){
+                    $(".5").prependTo(".container1");
+                    $(".btn2").click(function(){
+                    $(".6").prependTo(".container1");
+                    $(".btn2").click(function(){
+                    $(".7").prependTo(".container1");
+                    $(".btn2").click(function(){
+                    $(".8").prependTo(".container1");       
+                    }); }); }); }); }); });  });  }); 
+        })
+    </script>
+</body>
+</html>
